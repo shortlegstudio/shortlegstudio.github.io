@@ -2,6 +2,7 @@
 // --------------------------------------------------
 
 $base-font: 'Lato', Calibri, Arial, sans-serif;
+$sans-serif: 'Lato', Calibri, Arial, sans-serif;
 $heading-font: $base-font;
 $caption-font: $base-font;
 $code-font: monospace;
@@ -13,21 +14,24 @@ $doc-line-height: 26;
 
 // set-up the body font-size / line-height
 body {
-	margin-top: 0px + $doc-line-height;
-	font-size: 0px + $doc-font-size;	
+  margin-top: 0px + $doc-line-height;
+  font-size: 0px + $doc-font-size;	
 }
 
 
 // Colors
 // --------------------------------------------------
-$base-color				   : rgba(#222,0.8);
-$body-color      		 : #e8e8e8;
-$text-color      		 : rgba(#222,0.8);
-$comp-color 	 		   : complement(#222); 
-$border-color    		 : lighten($base-color,60);
-$white           		 : #fff;
-$black           		 : #000;
-$link-color 		     : rgba(#222,0.8);
+$base-color : rgba(#222,0.8);
+$body-color : #e8e8e8;
+$text-color : rgba(#222,0.8);
+$comp-color : complement(#222); 
+$border-color : lighten($base-color,60);
+$white : #fff;
+$black : #000;
+$link-color : rgba(#222,0.8);
+
+$light-gray: #ccc;
+$highlighter-color: #f3bc15;
 
 $primary			       : #222;
 $success			       : #5cb85c;
@@ -38,6 +42,11 @@ $info				         : #308cbc;
 
 // Screen Size
 // --------------------------------------------------
+
+$small-px : 600px;
+$medium-px : 768px;
+$medium-wide-px : 900px;
+$large-px : 1024px;
 
 $small               : "only screen and (min-width: 30em)";
 $medium              : "only screen and (min-width: 48em)";
