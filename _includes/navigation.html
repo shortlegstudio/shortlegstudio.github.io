@@ -4,6 +4,7 @@
     <nav class="masthead__menu-wrapper" role="navigation">
       <ul class="masthead__menu">
         <li><a class="masthead__menu-item" href="{{ site.url }}/">Home</a></li>
+        <li><a class="masthead__menu-item" href="{{ site.url }}/posts/">All Posts</a></li>
         <li> <a class="masthead__menu-item" href="{{ site.url }}/about/">About</a> </li>
         {% for link in site.data.navigation %}
         {% if link.url contains 'http' %}
