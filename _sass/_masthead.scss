@@ -22,6 +22,10 @@ MASTHEAD
   }
 }
 
+nav li {
+  list-style: outside none none;
+}
+
 .masthead__menu-wrapper {
   @media (max-width: $small-px) {
     width: 100%;
