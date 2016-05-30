@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unity for Programmers #2 - TDD
+title: TDD in Unity
 description: Making TDD fast in Unity
 categories: unity-for-programmers, tdd, unity3d
 ---
@@ -41,8 +41,8 @@ accelerated. Granted, this project right now is focused on an NPC Generator.
 I'm totally willing to have everyone doubt this in the realm of a FPS, or other
 more action based environment.
 
-The first thing is that the majority of your logic should be written in classes
-that know nothing about Unity3D. There really should be no reason to mingle the
-two together. The two biggest gotchas in doing this are the Random Number
-generator and any Debugging / Logging calls. This should tell you something
-These are dependencies and they need to be isolated.
+In a coming post I'll start to highlight how I have begun to isolate my logic
+behind Gateways and Boundaries so that my core mechanics know nothing about Unity
+and I can actually create unit tests that cover these behaviors.
+
+-T
