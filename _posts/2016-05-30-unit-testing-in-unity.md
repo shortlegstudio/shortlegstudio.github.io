@@ -10,9 +10,9 @@ variety of learning and sample projects that taught me fundamentals of working
 within Unity but every time I'd start to end up in a similar point.
 
 I'd reach a points where:
- 1. My logic would have some weird flaky bug that was hard to reproduce.
- 1. I would have lots of FindObjectOfType<T> and GetComponent<T> calls sprinkled throughout my code.
- 1. I would like to add a new behavior or mechanic and find I would need to touch many parts of the system in order to incorporate.
+  1. My logic would have some weird flaky bug that was hard to reproduce.
+  1. I would have lots of FindObjectOfType<T> and GetComponent<T> calls sprinkled throughout my code.
+  1. I would like to add a new behavior or mechanic and find I would need to touch many parts of the system in order to incorporate.
 
 Now, this is no different from my experience in the world of building business applications.
 There we are always running into this problem that our business logic gets
@@ -20,8 +20,8 @@ mingled up in our frameworks and persistence. We become so tied to the way thing
 are done that we can't build the interactions that are interesting to do.
 
 This got me interested in TDD inside Unity. But we run into the following big problems:
-1. TDD in Unity3D is SLOW. Using the standard methodology you need to flip between Monodevelop and Unity to run the tests. This is even worse than TDD in Rails, and that's saying something.
-1. You cannot unit test Monobehavior classes.
+  1. TDD in Unity3D is SLOW. Using the standard methodology you need to flip between Monodevelop and Unity to run the tests. This is even worse than TDD in Rails, and that's saying something.
+  1. You cannot unit test Monobehavior classes.
 
 I mean, that right there will kill off pretty much anyone from really attempting
 TDD inside Unity. Interestingly, the solution is the same as it is for Rails or
